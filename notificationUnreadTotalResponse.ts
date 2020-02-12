@@ -4,9 +4,9 @@
 */
 import * as Ajv from 'ajv';
 export const notificationUnreadTotalResponseSchema = {
-  "id": "http://tradex.techx.vn/user-utility/notificationUnreadTotalRequest",
+  "id": "http://tradex.techx.vn/user-utility/notificationUnreadTotalResponse",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "notificationUnreadTotalRequest schema",
+  "description": "notificationUnreadTotalResponse schema",
   "type": "object",
   "properties": {
     "totalUnread": {
