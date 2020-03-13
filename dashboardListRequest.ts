@@ -50,6 +50,13 @@ export const dashboardListRequestSchema = {
                     "string"
                   ]
                 },
+                "sessionId": {
+                  "description": "only use for vcsc rest",
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
                 "serviceId": {
                   "type": [
                     "null",
@@ -170,6 +177,13 @@ export const dashboardListRequestSchema = {
                   ]
                 },
                 "connectionId": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "sessionId": {
+                  "description": "only use for vcsc rest",
                   "type": [
                     "null",
                     "string"
