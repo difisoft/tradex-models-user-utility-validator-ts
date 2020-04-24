@@ -304,6 +304,7 @@ exports.alarmUpdateRequestSchema = {
         },
         {
             "required": [
+                "alarmId",
                 "code",
                 "value",
                 "currentValue",

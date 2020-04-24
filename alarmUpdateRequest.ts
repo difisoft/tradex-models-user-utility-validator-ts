@@ -306,6 +306,7 @@ export const alarmUpdateRequestSchema = {
     },
     {
       "required": [
+        "alarmId",
         "code",
         "value",
         "currentValue",

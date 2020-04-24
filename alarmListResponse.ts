@@ -10,6 +10,7 @@ export const alarmListResponseSchema = {
   "type": "object",
   "required": [
     "id",
+    "username",
     "code",
     "value",
     "currentValue",
@@ -21,6 +22,10 @@ export const alarmListResponseSchema = {
     "id": {
       "description": "id of the alarm",
       "type": "integer"
+    },
+    "username": {
+      "description": "username",
+      "type": "string"
     },
     "code": {
       "description": "code of the alarm",
