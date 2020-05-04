@@ -84,6 +84,18 @@ import {
 
 
 import {  
+  dashboardImportRequestSchema,
+  dashboardImportRequestValidator,
+} from "./dashboardImportRequest";
+
+
+import {  
+  dashboardImportResponseSchema,
+  dashboardImportResponseValidator,
+} from "./dashboardImportResponse";
+
+
+import {  
   dashboardListRequestSchema,
   dashboardListRequestValidator,
 } from "./dashboardListRequest";
@@ -93,6 +105,18 @@ import {
   dashboardListResponseSchema,
   dashboardListResponseValidator,
 } from "./dashboardListResponse";
+
+
+import {  
+  dashboardSharedCodeRequestSchema,
+  dashboardSharedCodeRequestValidator,
+} from "./dashboardSharedCodeRequest";
+
+
+import {  
+  dashboardSharedCodeResponseSchema,
+  dashboardSharedCodeResponseValidator,
+} from "./dashboardSharedCodeResponse";
 
 
 import {  
@@ -243,10 +267,18 @@ export {
   dashboardDetailRequestValidator,
   dashboardDetailResponseSchema,
   dashboardDetailResponseValidator,
+  dashboardImportRequestSchema,
+  dashboardImportRequestValidator,
+  dashboardImportResponseSchema,
+  dashboardImportResponseValidator,
   dashboardListRequestSchema,
   dashboardListRequestValidator,
   dashboardListResponseSchema,
   dashboardListResponseValidator,
+  dashboardSharedCodeRequestSchema,
+  dashboardSharedCodeRequestValidator,
+  dashboardSharedCodeResponseSchema,
+  dashboardSharedCodeResponseValidator,
   dashboardUpdateRequestSchema,
   dashboardUpdateRequestValidator,
   dashboardUpdateResponseSchema,
