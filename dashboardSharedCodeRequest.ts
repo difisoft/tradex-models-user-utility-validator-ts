@@ -306,12 +306,17 @@ export const dashboardSharedCodeRequestSchema = {
     },
     {
       "required": [
-        "dashboardId"
+        "data",
+        "name"
       ],
       "properties": {
-        "dashboardId": {
-          "description": "dash board id",
-          "type": "number"
+        "data": {
+          "description": "json data of dashboard layout",
+          "type": "object"
+        },
+        "name": {
+          "description": "dashboard name",
+          "type": "string"
         }
       }
     }
