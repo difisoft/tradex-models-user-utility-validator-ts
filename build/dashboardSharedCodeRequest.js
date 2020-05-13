@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.dashboardSharedCodeRequestValidator = exports.dashboardSharedCodeRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.dashboardSharedCodeRequestSchema = {
     "id": "http://tradex.techx.vn/user-utility/dashboardSharedCodeRequest",

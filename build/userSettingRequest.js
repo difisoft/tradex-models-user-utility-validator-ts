@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.userSettingRequestValidator = exports.userSettingRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.userSettingRequestSchema = {
     "id": "http://tradex.techx.vn/user-utility/userSettingRequest",

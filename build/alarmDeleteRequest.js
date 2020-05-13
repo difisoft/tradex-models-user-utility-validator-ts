@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.alarmDeleteRequestValidator = exports.alarmDeleteRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.alarmDeleteRequestSchema = {
     "id": "http://tradex.techx.vn/user-utility/alarmDeleteRequest",

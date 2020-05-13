@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.dashboardListResponseValidator = exports.dashboardListResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.dashboardListResponseSchema = {
     "id": "http://tradex.techx.vn/user-utility/dashboardListResponse",

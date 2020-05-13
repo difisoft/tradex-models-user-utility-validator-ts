@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.dashboardCreateResponseValidator = exports.dashboardCreateResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.dashboardCreateResponseSchema = {
     "id": "http://tradex.techx.vn/user-utility/dashboardCreateResponse",

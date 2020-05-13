@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.alarmUpdateResponseValidator = exports.alarmUpdateResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.alarmUpdateResponseSchema = {
     "id": "http://tradex.techx.vn/user-utility/alarmUpdateResponse",

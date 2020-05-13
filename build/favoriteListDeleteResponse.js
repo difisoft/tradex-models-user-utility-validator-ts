@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.favoriteListDeleteResponseValidator = exports.favoriteListDeleteResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.favoriteListDeleteResponseSchema = {
     "id": "http://tradex.techx.vn/user-utility/favoriteListDeleteResponse",

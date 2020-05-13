@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.notificationListRequestValidator = exports.notificationListRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.notificationListRequestSchema = {
     "id": "http://tradex.techx.vn/user-utility/notificationListRequest",

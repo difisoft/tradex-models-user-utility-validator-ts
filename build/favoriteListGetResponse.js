@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.favoriteListGetResponseValidator = exports.favoriteListGetResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.favoriteListGetResponseSchema = {
     "id": "http://tradex.techx.vn/user-utility/favoriteListGetResponse",

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.notificationMarkRequestValidator = exports.notificationMarkRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.notificationMarkRequestSchema = {
     "id": "http://tradex.techx.vn/user-utility/notificationMarkRequest",
